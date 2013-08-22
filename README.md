@@ -1,0 +1,2 @@
+remove-extra-editor-buttons
+===========================
