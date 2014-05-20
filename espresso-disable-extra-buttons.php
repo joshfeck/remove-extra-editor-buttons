@@ -28,7 +28,7 @@ License: GPLv2
  
 function espresso_remove_extra_buttons() {
  
-  if (isset($_REQUEST['action']) && ($_REQUEST['action'] == 'add_new_event' || $_REQUEST['action'] == 'edit')) {
+  if (isset($_REQUEST['action']) && ($_REQUEST['action'] == 'add_new_event' || $_REQUEST['page'] == 'events')) {
 		remove_all_filters('mce_buttons_3');
 		remove_all_filters('mce_buttons_4');
 	}
